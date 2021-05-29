@@ -8,7 +8,7 @@ export default {
   ssr: false,
   target: 'static',
   head: {
-    title: 'tmp-web',
+    title: 'Thomas "paced" Wang',
     meta: [
       {
         charset: 'utf-8',
