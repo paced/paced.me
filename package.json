@@ -8,19 +8,10 @@
     },
     "repository": "https://github.com/teaminkling/tmp-web",
     "license": "SEE LICENSE IN LICENSE",
-    "dependencies": {},
     "devDependencies": {
-        "@nuxt/types": "^2.14.6",
-        "@nuxt/typescript-build": "^2.0.3",
-        "@nuxt/typescript-runtime": "^2.0.0",
-        "@nuxtjs/axios": "^5.12.5",
-        "@nuxtjs/color-mode": "^2.0.3",
-        "@nuxtjs/redirect-module": "^0.3.1",
-        "@nuxtjs/sitemap": "^2.4.0",
-        "nuxt": "^2.14.1",
-        "pug": "^3.0.0",
-        "pug-plain-loader": "^1.1.0",
-        "typescript": "^4.0.3",
-        "vuex-module-decorators": "^1.0.1"
+        "@nuxt/types": "^2.15.6",
+        "@nuxt/typescript-build": "^2.1.0",
+        "@nuxt/typescript-runtime": "^2.1.0",
+        "nuxt": "^2.15.6"
     }
 }

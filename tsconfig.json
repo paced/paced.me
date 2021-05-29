@@ -1,31 +1,18 @@
 {
   "compilerOptions": {
+    /* Critical options. */
+
     "target": "ES2018",
     "module": "ESNext",
-    "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictBindCallApply": true,
-    "strictPropertyInitialization": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "allowJs": true,
-    "experimentalDecorators": true,
-    "importHelpers": true,
     "lib": [
       "ESNext",
       "ESNext.AsyncIterable",
       "DOM"
     ],
-    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "strict": true,
     "noEmit": true,
     "baseUrl": ".",
     "paths": {
@@ -39,9 +26,24 @@
     "types": [
       "@types/node",
       "@nuxt/types"
-    ]
-  },
-  "exclude": [
-    "node_modules"
-  ]
+    ],
+    "exclude": [
+      "node_modules"
+    ],
+
+    /* Strictness options. */
+
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+  }
 }

@@ -42,9 +42,5 @@ export default {
     /* Allow TypeScript building/sources. */
 
     '@nuxt/typescript-build',
-
-    /* Support dark mode and adaptive colours. */
-
-    '@nuxtjs/color-mode',
   ],
 };
