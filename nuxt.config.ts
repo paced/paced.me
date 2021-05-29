@@ -1,5 +1,7 @@
 export default {
   modules: [
+    '@nuxtjs/fontawesome',
+
     /* Used for boring standard HTTP stuff. */
 
     '@nuxtjs/redirect-module',
@@ -27,17 +29,26 @@ export default {
     },
   ],
   css: [
-    "~assets/scss/main.scss",
+    {
+      src: "bulma/css/bulma.min.css",
+    }
   ],
-  build: {
-    postcss: {
-      preset: {
-        features: {
-          customProperties: false,
-        }
-      }
+  fontawesome: {
+    component: 'fa',
+    icons: {
+      solid: [
+        /* Footer. */
+
+        'faHeart',
+      ],
+      brands: [
+        'faGithub',
+        'faLinkedin',
+      ],
     }
   },
+  scripts: [],
+  build: {},
   buildModules: [
     /* Allow TypeScript building/sources. */
 
