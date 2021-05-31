@@ -14,6 +14,7 @@
 </template>
 
 <style>
+
   #base {
     display: flex;
     min-height: 100vh;
@@ -27,6 +28,7 @@
   .container {
     padding: 3vh 4.854vw 0;
   }
+
 </style>
 
 <script lang="ts">

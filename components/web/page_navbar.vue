@@ -1,4 +1,5 @@
 <template lang="pug">
+
   div#navbar-base
     nav.navbar(role="navigation" aria-label="main navigation")
       div.navbar-brand
@@ -17,6 +18,7 @@
         div.navbar-end
           a.navbar-item #[fa(:icon=['fab', 'github'])] &nbsp; GitHub
           a.navbar-item #[fa(:icon=['fab', 'linkedin'])] &nbsp; LinkedIn
+
 </template>
 
 <style lang="css">

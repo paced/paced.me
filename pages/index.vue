@@ -54,6 +54,7 @@
 </template>
 
 <style>
+
   h1, h2 {
     padding-bottom: 0.2em;
   }
@@ -62,10 +63,12 @@
     padding: 1.5vh 2.427vw 0;
   }
 
-  p, blockquote {
+  p {
     line-height: 1.6em;
     max-width: 32em;
+
   }
+
 </style>
 
 <script lang="ts">
