@@ -1,5 +1,5 @@
 name: "Build and Test"
-on: [push]
+on: [ push ]
 
 #
 # For each push, check that the project builds and tests pass (and run coverage if applicable).
@@ -18,18 +18,32 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-
-    #
-    # TODO
-    #
+      - uses: actions/checkout@v2
+      - name: install
+        run: npm install
+      - name: build
+        run: npm run build
 
   test:
     runs-on: ubuntu-latest
     needs: build
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+      - name: install
+        run: npm install
+      - name: lint
+        run: npm run lint
 
-    #
-    # TODO
-    #
+  deploy:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v2
+      - name: install
+        run: npm install
+      - name: build
+        run: npm run build
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
