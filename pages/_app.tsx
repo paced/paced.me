@@ -34,6 +34,7 @@ function App({ Component, pageProps, router }: AppProps): JSX.Element {
 
         <meta property="og:type" content="website" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="theme-color" content="#FF00E6" />
       </Head>
       <Navbar />
       <motion.main
