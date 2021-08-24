@@ -1,0 +1,47 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "google",
+    "next",
+    "next/core-web-vitals",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:editorconfig/all"
+  ],
+  "plugins": [
+    "@typescript-eslint",
+    "editorconfig"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": [
+      "tsconfig.json",
+      "tsconfig.dev.json"
+    ],
+    "sourceType": "module"
+  },
+  "ignorePatterns": [
+    "/lib/**/*"
+  ],
+  "rules": {
+    "max-len": ["warn", 100],
+    "quotes": ["warn", "double"],
+    "valid-jsdoc": ["warn", {
+      "requireParamType": false,
+      "requireReturnType": false,
+      "requireReturn": false,
+    }],
+    "no-unused-vars": [
+      "warn", {"argsIgnorePattern": "^_"}
+    ],
+    "@typescript-eslint/ban-types": ["warn"],
+    "no-invalid-this": 0,
+    "babel/no-invalid-this": 1
+  }
+}
