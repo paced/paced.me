@@ -30,18 +30,35 @@
     "/lib/**/*"
   ],
   "rules": {
-    "max-len": ["warn", 100],
-    "quotes": ["warn", "double"],
-    "valid-jsdoc": ["warn", {
-      "requireParamType": false,
-      "requireReturnType": false,
-      "requireReturn": false,
-    }],
-    "no-unused-vars": [
-      "warn", {"argsIgnorePattern": "^_"}
+    "max-len": [
+      "warn",
+      100
     ],
-    "@typescript-eslint/ban-types": ["warn"],
+    "quotes": [
+      "warn",
+      "double"
+    ],
+    "valid-jsdoc": [
+      "warn",
+      {
+        "requireParamType": false,
+        "requireReturnType": false,
+        "requireReturn": false
+      }
+    ],
+    "no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "@typescript-eslint/ban-types": [
+      "warn"
+    ],
     "no-invalid-this": 0,
-    "babel/no-invalid-this": 1
+    "object-curly-spacing": [
+      "warn",
+      "always"
+    ]
   }
 }
