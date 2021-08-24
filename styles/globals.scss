@@ -22,6 +22,10 @@ html, body {
   max-width: 24em;
 }
 
+.wide-brief {
+  max-width: 100%;
+}
+
 .brief .title {
   font-size: 48px;
 }
@@ -46,6 +50,10 @@ a {
   color: $secondary;
 }
 
+.background-highlight {
+  background-color: $primary;
+}
+
 .highlight {
   color: $primary;
 }
@@ -55,7 +63,7 @@ a {
 //
 
 #base {
-  margin: 5vh 15vw;
+  margin: 5vh 10vw;
 }
 
 //
@@ -78,15 +86,21 @@ footer {
 @media (min-width: 1024px) {
   nav {
     padding: 48px 0 48px 0;
-    margin: 0 15vw 0 15vw;
+    margin: 0 10vw 0 10vw;
 
     font-size: 24px;
   }
 
-  // Give the title element of any page some breathing space.
+  // Give the title element of any page some breathing space with this class.
 
-  .brief .title {
-    padding-top: calc(64px + 32px + 10vh);
+  .big-pad {
+    padding-top: calc(64px + 32px + 10vh) !important;
+  }
+
+  // For standard titles, they just need enough clearance for the expanded navbar.
+
+  .title {
+    padding-top: 96px;
   }
 }
 
@@ -97,18 +111,22 @@ footer {
 
   // The title on mobile still needs some breathing room, but not as much as on wider displays.
 
-  .brief .title {
-    padding-top: calc(1em + 5vh);
+  .big-pad {
+    padding-top: calc(1em + 5vh) !important;
   }
 
-  footer .container {
+  footer {
     padding: 1em;
   }
 
   // Tags are considered optional on narrow device views.
 
-  .brief .tag {
+  .tag {
     display: none !important;
+  }
+
+  .title {
+    padding-top: 64px;
   }
 }
 
@@ -120,7 +138,17 @@ footer {
 }
 
 //
-// Index
+// Helpers
+//
+
+.do-not-break {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+
+//
+// Page-specific
 //
 
 .index-socials {
@@ -129,4 +157,23 @@ footer {
 
 .index-profile-image {
   width: 64px;
+}
+
+.card-header-text {
+  margin-left: 0.5em;
+}
+
+@media (min-width: 1024px) {
+  .profile-card .card-content {
+    height: 15em;
+    position: relative;
+  }
+
+  .profile-card .card-content div {
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    padding-right: 2em;
+    transform: translateY(-50%);
+  }
 }

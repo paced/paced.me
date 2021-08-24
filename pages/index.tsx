@@ -23,7 +23,7 @@ export default class Home extends Component {
     return (
       <div className={"content"}>
         <div className={"brief"}>
-          <h1 className={"title"}>Hey.</h1>
+          <h1 className={"title big-pad"}>Hey.</h1>
           <h2 className={"subtitle"}>
             I&apos;m Thomas <span className={"highlight"}>(he/him)</span>.
           </h2>

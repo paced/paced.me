@@ -1,5 +1,5 @@
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
-import { faBlog, faHome, faIdCard, faWrench } from "@fortawesome/free-solid-svg-icons";
+import { faBlog, faHome, faIdCard } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Link from "next/link";
@@ -138,7 +138,6 @@ export default class Navbar extends Component {
             <div className={"navbar-end"}>
               <NavbarLink name={"Home"} icon={faHome} path={"/"} />
               <NavbarLink name={"Profile"} icon={faIdCard} path={"/profile"} />
-              <NavbarLink name={"Works"} icon={faWrench} path={"/works"} />
               <NavbarLink name={"Blog"} icon={faBlog} path={"/blog"} />
             </div>
           </div>
