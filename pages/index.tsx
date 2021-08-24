@@ -24,8 +24,8 @@ export default class Home extends Component {
     const pageTitle = "Paced Engineering - Home";
     const pageDescription =
       // eslint-disable-next-line
-      'The personal profile website for Thomas "paced" Wang, a professional engineer and' +
-      " enthusiast musician from Melbourne, Australia.";
+      'The personal profile website for Thomas "paced" Wang, an engineer and musician from' +
+      " Melbourne, Australia.";
 
     return (
       <>
