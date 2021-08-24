@@ -1,9 +1,19 @@
 import { AppProps } from "next/app";
-import "../styles/globals.css";
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
+import "../styles/globals.scss";
 
 // eslint-disable-next-line require-jsdoc
 function App({ Component, pageProps }: AppProps): JSX.Element {
-  return <Component {...pageProps} />;
+  return (
+    <div id={"base"}>
+      <Navbar />
+      <main>
+        <Component {...pageProps} />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
 // noinspection JSUnusedGlobalSymbols
