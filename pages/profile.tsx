@@ -207,10 +207,7 @@ export default function Profile(): JSX.Element {
               content={
                 <>
                   <p>My biggest passion is music!</p>
-                  <p>
-                    Though I don&apos;t mix internet personas, I&apos;ve composed hundreds of songs
-                    and love both jamming and gigging.
-                  </p>
+                  <p>I&apos;ve composed hundreds of songs and love both jamming and gigging.</p>
                   <p>I play guitar, piano, bass, clarinet, and I sing.</p>
                 </>
               }
@@ -241,10 +238,6 @@ export default function Profile(): JSX.Element {
                 <>
                   <p>I have an aural and speaking proficiency in Mandarin Chinese.</p>
                   <p>I have a basic written and aural proficiency in French.</p>
-                  <p>
-                    If it counts, I understand most of the intricacies between US, UK, and AU
-                    English.
-                  </p>
                 </>
               }
             />

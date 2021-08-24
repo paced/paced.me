@@ -163,17 +163,18 @@ footer {
   margin-left: 0.5em;
 }
 
+.card {
+  border-radius: 32px;
+}
+
+.card-header {
+  padding: 0.67em 0 0 0.67em;
+
+  box-shadow: none !important;
+}
+
 @media (min-width: 1024px) {
   .profile-card .card-content {
-    height: 15em;
-    position: relative;
-  }
-
-  .profile-card .card-content div {
-    position: absolute;
-    top: 50%;
-    margin: 0;
-    padding-right: 2em;
-    transform: translateY(-50%);
+    min-height: 18rem;
   }
 }
