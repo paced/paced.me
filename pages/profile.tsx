@@ -16,6 +16,7 @@ import {
   faWineGlass,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Head from "next/head";
 
 /**
  * Props for the identity cards.
@@ -72,8 +73,32 @@ export default function Profile(): JSX.Element {
   const linkedInUrl = "https://linkedin.com/in/tianhao-wang";
   const miscUrl = "https://www.umisc.info/";
 
+  const pageTitle = "Paced Engineering - Profile";
+  const pageDescription =
+    "An over-detailed profile page for a Melbournian software engineer going by the name of " +
+    // eslint-disable-next-line
+    '"paced".';
+
   return (
-    <div>
+    <>
+      <Head>
+        {/* Base. */}
+        <meta property="og:site_name" content="Paced Engineering" />
+        <meta property="og:url" content="https://paced.me/profile" />
+        <meta name="twitter:url" content="https://paced.me/profile" />
+
+        {/* Title. */}
+
+        <title>{pageTitle}</title>
+        <meta property="og:title" content={pageTitle} />
+        <meta name="twitter:title" content={pageTitle} />
+
+        {/* Description. */}
+
+        <meta name="description" content={pageDescription} />
+        <meta property="og:description" content={pageDescription} />
+        <meta name="twitter:description" content={pageDescription} />
+      </Head>
       <div className={"content brief wide-brief"}>
         <h1 className={"title"}>Profile</h1>
         <h2 className={"subtitle"}>This is where I overshare.</h2>
@@ -375,6 +400,6 @@ export default function Profile(): JSX.Element {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
