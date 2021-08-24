@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm install file:../../data & next build",
+    "build": "next export",
     "start": "next start",
     "lint": "next lint"
   },

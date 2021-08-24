@@ -1,8 +1,7 @@
 # paced.me
 
-> **Warning**: This repository is not ready for use and should be ignored for now.
-
-My personal (static) website. This is just for potential recruiters and people who visit my tech twitter.
+My personal (static) website. This is just for potential recruiters and people who visit my tech
+Twitter.
 
 ## Build Instructions
 
@@ -15,11 +14,10 @@ npm run dev
 
 ## Deploy
 
-Build the project for production to test it works:
+Build the project for production:
 
 ```sh
-npm run generate
-run run start
+npm run build
 ```
 
-After doing this, you can deploy from `dist/` directly.
+After doing this, you can deploy from `out/` directly.
