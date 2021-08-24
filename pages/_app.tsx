@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { AppProps } from "next/app";
 import Head from "next/head";
 import Footer from "../components/footer";
@@ -5,7 +6,12 @@ import Navbar from "../components/navbar";
 import "../styles/globals.scss";
 
 // eslint-disable-next-line require-jsdoc
-function App({ Component, pageProps }: AppProps): JSX.Element {
+function App({ Component, pageProps, router }: AppProps): JSX.Element {
+  const variants = {
+    hidden: { y: 20 },
+    enter: { y: 0 },
+  };
+
   // noinspection HtmlRequiredTitleElement
   return (
     <div id={"base"}>
@@ -30,10 +36,16 @@ function App({ Component, pageProps }: AppProps): JSX.Element {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Navbar />
-      <main>
+      <motion.main
+        key={router.route}
+        variants={variants}
+        initial={"hidden"}
+        animate={"enter"}
+        transition={{ duration: 0.2 }}
+      >
         <Component {...pageProps} />
-      </main>
-      <Footer />
+        <Footer />
+      </motion.main>
     </div>
   );
 }
