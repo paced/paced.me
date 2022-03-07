@@ -12,28 +12,30 @@ As a contributor (commenter, code collaborator, feedback-provider, and so on), y
 
 ### Inclusion
 
-This project and community will be a harassment-free experience for every collaborator regardless of age, appearance,
-disability, ethnicity, sexual characteristics, gender identity and expression, experience level, education,
-socioeconomic status, nationality, race, religion, sexual identity, or sexual orientation.
+This project and community will be a harassment-free experience for every collaborator regardless of
+age, appearance, disability, ethnicity, sexual characteristics, gender identity and expression,
+experience level, education, socioeconomic status, nationality, race, religion, sexual identity, or
+sexual orientation.
 
 ### Professionalism
 
-Of course, friendly language may result in acceptable banter between collaborators. So what is acceptable and what
-is not? As a base example:
+Of course, friendly language may result in acceptable banter between collaborators. So what is
+acceptable and what is not? As a base example:
 
 - Unwelcome sexual attention or advances are unacceptable.
 - Attacks on a person for any reason is unacceptable.
 
 ## Team Inkling's Responsibilities
 
-Maintainers are responsible for overseeing the standards of acceptable behaviour within this project. This means we
-can and will edit, reject, and delete pull requests and issues if we can cite instances of unacceptable behaviour.
+Maintainers are responsible for overseeing the standards of acceptable behaviour within this
+project. This means we can and will edit, reject, and delete pull requests and issues if we can cite
+instances of unacceptable behaviour.
 
 ## Scope
 
-If you are representing the project or its community, we expect you to follow by the Code of Conduct. The scope of the
-Code may also be extended to verifiable public interactions and/or personal interactions if they cannot be resolved
-internally.
+If you are representing the project or its community, we expect you to follow by the Code of
+Conduct. The scope of the Code may also be extended to verifiable public interactions and/or
+personal interactions if they cannot be resolved internally.
 
 ## Enforcement
 
@@ -46,8 +48,8 @@ We are obligated to:
 - Provide a response to the reporter.
 - Provide transparency in verdict decision-making.
 
-Verdicts handed out to contributors include (but are not limited to) requests for apology, warnings, organisation-wide
-temporary bans, and permanent bans.
+Verdicts handed out to contributors include (but are not limited to) requests for apology, warnings,
+organisation-wide temporary bans, and permanent bans.
 
 ## Attribution
 
