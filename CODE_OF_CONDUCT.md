@@ -12,10 +12,8 @@ As a contributor (commenter, code collaborator, feedback-provider, and so on), y
 
 ### Inclusion
 
-This project and community will be a harassment-free experience for every collaborator regardless of
-age, appearance, disability, ethnicity, sexual characteristics, gender identity and expression,
-experience level, education, socioeconomic status, nationality, race, religion, sexual identity, or
-sexual orientation.
+This community will be a harassment-free experience for every collaborator regardless of any part of
+their identity.
 
 ### Professionalism
 
@@ -25,7 +23,7 @@ acceptable and what is not? As a base example:
 - Unwelcome sexual attention or advances are unacceptable.
 - Attacks on a person for any reason is unacceptable.
 
-## Team Inkling's Responsibilities
+## My Responsibilities
 
 Maintainers are responsible for overseeing the standards of acceptable behaviour within this
 project. This means we can and will edit, reject, and delete pull requests and issues if we can cite
@@ -48,10 +46,10 @@ We are obligated to:
 - Provide a response to the reporter.
 - Provide transparency in verdict decision-making.
 
-Verdicts handed out to contributors include (but are not limited to) requests for apology, warnings,
-organisation-wide temporary bans, and permanent bans.
+Verdicts handed out to contributors include (but are not limited to) warnings and blocks/bans.
 
 ## Attribution
 
-This Code is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/),
-[version 1.4](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html).
+This Code is adapted from the [Contributor Covenant][contributor-covenant] v1.4.
+
+[contributor-covenant]: https://www.contributor-covenant.org/
