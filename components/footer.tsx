@@ -5,13 +5,13 @@ import { Component } from "react";
  */
 export default class Footer extends Component {
   /**
-   * @returns {JSX.Element} the {@link JSX.Element}
+   * @return {JSX.Element} the {@link JSX.Element}
    */
   render(): JSX.Element {
     const currentYear: number = new Date().getFullYear();
 
     return (
-      <footer className={"content"}>
+      <footer className="content">
         <p>Paced Engineering &copy; 2015 - {currentYear}.</p>
       </footer>
     );
