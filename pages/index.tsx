@@ -17,16 +17,16 @@ export default class Home extends Component {
   keybaseUrl = "https://keybase.io/paced";
 
   /**
-   * @returns {JSX.Element} the {@link JSX.Element}
+   * @return {JSX.Element} the {@link JSX.Element}
    */
   render(): JSX.Element {
     return (
       <>
-        <div className={"content"}>
-          <div className={"brief"}>
-            <h1 className={"title big-pad"}>Hey.</h1>
-            <h2 className={"subtitle"}>
-              I&apos;m Thomas <span className={"highlight"}>(he/him)</span>.
+        <div className="content">
+          <div className="brief">
+            <h1 className="title big-pad">Hey.</h1>
+            <h2 className="subtitle">
+              I&apos;m Thomas <span className="highlight">(he/him)</span>.
             </h2>
             <p>
               I&apos;m a full-stack technologist from sunny Melbourne, Australia. You might also
@@ -34,27 +34,27 @@ export default class Home extends Component {
             </p>
             <ul>
               <li>
-                <span className={"tag"}>Simplified Chinese</span> 王天皓
+                <span className="tag">Simplified Chinese</span> 王天皓
               </li>
               <li>
-                <span className={"tag"}>Romanised</span> Tian Hao Wang
+                <span className="tag">Romanised</span> Tian Hao Wang
               </li>
               <li>
-                <span className={"tag"}>Anglicised</span> Thomas Wang
+                <span className="tag">Anglicised</span> Thomas Wang
               </li>
             </ul>
             <p>
-              I am primarily passionate about <span className={"highlight"}>usability</span>,{" "}
-              <span className={"highlight"}>interactivity</span>, and{" "}
-              <span className={"highlight"}>innovation</span>.
+              I am primarily passionate about <span className="highlight">
+                usability
+              </span>, <span className="highlight">
+                interactivity
+              </span>, and <span className="highlight">innovation</span>.
             </p>
           </div>
-          <div className={"index-socials"}>
+          <div className="index-socials">
             <b>
               <FontAwesomeIcon icon={faKeybase} />
-            </b>{" "}
-            Keybase:{" "}
-            <a href={this.keybaseUrl} target={"__blank"}>
+            </b> Keybase: <a href={this.keybaseUrl} target={"__blank"}>
               {this.keybaseSignature}
             </a>
           </div>
