@@ -20,7 +20,7 @@
     "dotenv": "^9.0.2",
     "eslint": "^7.32.0",
     "eslint-config-google": "^0.14.0",
-    "eslint-config-next": "^11.1.0",
+    "eslint-config-next": "^14.0.0",
     "eslint-plugin-editorconfig": "^3.0.2",
     "framer-motion": "^4.1.17",
     "next": "^12.1.0",
