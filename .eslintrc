@@ -34,14 +34,6 @@
       "warn",
       "double"
     ],
-    "valid-jsdoc": [
-      "warn",
-      {
-        "requireParamType": false,
-        "requireReturnType": false,
-        "requireReturn": false
-      }
-    ],
     "no-unused-vars": [
       "warn",
       {

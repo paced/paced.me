@@ -21,13 +21,9 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
 
         <title>{title}</title>
 
-        {/* Description. */}
-
         <meta name="description" content={description} />
         <meta property="og:description" content={description} />
         <meta name="twitter:description" content={description} />
-
-        {/* Image. */}
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:image" content="/img/profile.png" />
@@ -36,8 +32,6 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
           property="og:image:alt"
           content="A caricature of the owner of Paced Engineering when he was bald."
         />
-
-        {/* Other. */}
 
         <meta property="og:type" content="website" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -52,5 +46,4 @@ const App = ({ Component, pageProps }: AppProps): JSX.Element => {
   );
 };
 
-// noinspection JSUnusedGlobalSymbols
 export default App;
