@@ -22,7 +22,7 @@
     "bulma": "^0.9.3",
     "bulma-prefers-dark": "^0.1.0-beta.0",
     "eslint": "8.57.0",
-    "eslint-config-next": "14.2.0",
+    "eslint-config-next": "14.2.1",
     "eslint-plugin-editorconfig": "4.0.3",
     "framer-motion": "^4.1.17",
     "next": "^12.1.0",
