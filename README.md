@@ -1,23 +1,22 @@
 # paced.me
 
-My personal (static) website. This is just for potential recruiters and people who visit my tech
-Twitter.
+My personal (static) website for recruiters and curious people.
 
-## Build Instructions
+## Build
 
-Build and run the frontend as a dev server:
+Run the dev server with:
 
-```sh
+```shell
 npm install
 npm run dev
 ```
 
 ## Deploy
 
-Build the project for production:
+Run:
 
-```sh
-npm run build
+```shell
+NODE_ENV=production npm run build
 ```
 
-After doing this, you can deploy from `out/` directly.
+On build, we deploy the site from `dist/client` directly.
