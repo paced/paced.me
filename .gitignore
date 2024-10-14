@@ -1,30 +1,65 @@
-# IDE and OS
+# dependencies
+**/node_modules
+**/.pnp
+.pnp.js
+.vite
 
-.idea/
-.vscode/
+# testing
+**/coverage
+
+# output
+**/out/
+**/.cache
+**/build
+**/dist
+**/generated/**
+!**/generated/.gitkeep
+
+# misc
 .DS_Store
+*.pem
 
-# Environment
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-dist/
-out/
-coverage/
-/target/
-.next/
-
-## Python
-
+# local env files
 .env
-__pycache__/
-*.pyc
+.env*.*
+.dev.vars
+!.env.example
 
-### Django
+# typescript
+*.tsbuildinfo
+next-env.d.ts
 
-*.sqlite3
+# Editor cache directory
+.vs/
+.idea/
 
-## JavaScript
+# Godot 4+
+**/.godot/
 
-.nuxt/
-npm-debug.log
-node_modules/
-.nyc_output
+# Cloudflare
+**/functions/\[\[path\]\].js
+**/functions/\[\[path\]\].js.map
+**/functions/metafile.*
+**/version.txt
+**/public/build
+**/.dev.vars
+**/.wrangler/
+wrangler.toml
+wrangler.prod.toml
+**/env.d.ts
+
+# moon
+.moon/cache
+.moon/docker
+
+# rust
+debug/
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
