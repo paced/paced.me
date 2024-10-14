@@ -18,7 +18,7 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@types/node": "20.14.6",
     "@types/react": "17.0.80",
-    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
     "bulma": "^0.9.3",
     "bulma-prefers-dark": "^0.1.0-beta.0",
     "eslint": "8.57.0",
@@ -33,6 +33,6 @@
     "typescript": "5.4.5"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^7.1.0"
+    "@typescript-eslint/parser": "^8.0.0"
   }
 }
