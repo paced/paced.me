@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "engines": {
-    "node": "20"
+    "node": "22"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
