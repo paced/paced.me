@@ -7,8 +7,8 @@ My personal (static) website for recruiters and curious people.
 Run the dev server with:
 
 ```shell
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 ## Deploy
@@ -16,7 +16,7 @@ npm run dev
 Run:
 
 ```shell
-NODE_ENV=production npm run build
+NODE_ENV=production pnpm run build
 ```
 
 On build, we deploy the site from `dist/client` directly.
