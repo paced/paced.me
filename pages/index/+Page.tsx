@@ -1,12 +1,9 @@
-import { Helmet } from "react-helmet-async";
 import { FaKeybase } from "react-icons/fa";
 
 export default function Home() {
   return (
     <>
-      <Helmet>
-        <title>Paced Engineering</title>
-      </Helmet>
+      <title>Paced Engineering</title>
       <div className="content">
         <div className="brief">
           <h1 className="title big-pad">Hey.</h1>
