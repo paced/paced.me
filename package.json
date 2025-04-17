@@ -29,10 +29,10 @@
   },
   "dependencies": {
     "@fontsource/rubik": "5.2.5",
-    "@mantine/core": "7.17.3",
-    "@mantine/hooks": "7.17.3",
+    "@mantine/core": "7.17.4",
+    "@mantine/hooks": "7.17.4",
     "@vitejs/plugin-react-swc": "3.8.1",
-    "motion": "12.6.3",
+    "motion": "12.6.5",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-icons": "5.5.0",
