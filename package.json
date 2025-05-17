@@ -29,8 +29,8 @@
   },
   "dependencies": {
     "@fontsource/rubik": "5.2.5",
-    "@mantine/core": "7.17.7",
-    "@mantine/hooks": "7.17.7",
+    "@mantine/core": "8.0.1",
+    "@mantine/hooks": "8.0.1",
     "@vitejs/plugin-react-swc": "3.9.0",
     "motion": "12.10.0",
     "react": "19.1.0",
