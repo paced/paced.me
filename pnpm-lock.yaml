@@ -18,11 +18,11 @@ importers:
         specifier: 7.17.7
         version: 7.17.7(react@19.1.0)
       '@vitejs/plugin-react-swc':
-        specifier: 3.9.0
-        version: 3.9.0(vite@6.2.7)
+        specifier: 3.10.0
+        version: 3.10.0(vite@6.2.7)
       motion:
-        specifier: 12.10.0
-        version: 12.10.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: 12.15.0
+        version: 12.15.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -33,11 +33,11 @@ importers:
         specifier: 5.5.0
         version: 5.5.0(react@19.1.0)
       vike:
-        specifier: 0.4.229
-        version: 0.4.229(react-streaming@0.4.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.2.7)
+        specifier: 0.4.230
+        version: 0.4.230(react-streaming@0.4.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.2.7)
       vike-react:
-        specifier: 0.6.1
-        version: 0.6.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vike@0.4.229(react-streaming@0.4.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.2.7))
+        specifier: 0.6.3
+        version: 0.6.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vike@0.4.230(react-streaming@0.4.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.2.7))
     devDependencies:
       '@eslint/js':
         specifier: 9.24.0
@@ -407,6 +407,9 @@ packages:
   '@polka/url@1.0.0-next.28':
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
 
+  '@rolldown/pluginutils@1.0.0-beta.9':
+    resolution: {integrity: sha512-e9MeMtVWo186sgvFFJOPGy7/d2j2mZhLJIdVW0C/xDluuOvymEATqz6zKsP0ZmXGzQtqlyjz5sC1sYQUoJG98w==}
+
   '@rollup/rollup-android-arm-eabi@4.35.0':
     resolution: {integrity: sha512-uYQ2WfPaqz5QtVgMxfN6NpLD+no0MYHDBywl7itPYd3K5TjjSghNKmX8ic9S8NU8w81NVhJv/XojcHptRly7qQ==}
     cpu: [arm]
@@ -649,8 +652,8 @@ packages:
     resolution: {integrity: sha512-RGLh5CRaUEf02viP5c1Vh1cMGffQscyHe7HPAzGpfmfflFg1wUz2rYxd+OZqwpeypYvZ8UxSxuIpF++fmOzEcg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@vitejs/plugin-react-swc@3.9.0':
-    resolution: {integrity: sha512-jYFUSXhwMCYsh/aQTgSGLIN3Foz5wMbH9ahb0Zva//UzwZYbMiZd7oT3AU9jHT9DLswYDswsRwPU9jVF3yA48Q==}
+  '@vitejs/plugin-react-swc@3.10.0':
+    resolution: {integrity: sha512-ZmkdHw3wo/o/Rk05YsXZs/DJAfY2CdQ5DUAjoWji+PEr+hYADdGMCGgEAILbiKj+CjspBTuTACBcWDrmC8AUfw==}
     peerDependencies:
       vite: ^4 || ^5 || ^6
 
@@ -964,8 +967,8 @@ packages:
     resolution: {integrity: sha512-dKx12eRCVIzqCxFGplyFKJMPvLEWgmNtUrpTiJIR5u97zEhRG8ySrtboPHZXx7daLxQVrl643cTzbab2tkQjxg==}
     engines: {node: '>= 0.4'}
 
-  framer-motion@12.10.5:
-    resolution: {integrity: sha512-p6VF1YkwWvNDFzg5IQ5lqPx11Td4TQ6LqDnshV7sWj0Nrp4dwz2/aEzmgh9WA9ridcTIJ625Fr0oiuhgqIoFwQ==}
+  framer-motion@12.15.0:
+    resolution: {integrity: sha512-XKg/LnKExdLGugZrDILV7jZjI599785lDIJZLxMiiIFidCsy0a4R2ZEf+Izm67zyOuJgQYTHOmodi7igQsw3vg==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0 || ^19.0.0
@@ -1269,14 +1272,14 @@ packages:
     resolution: {integrity: sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==}
     engines: {node: '>=16 || 14 >=14.17'}
 
-  motion-dom@12.10.5:
-    resolution: {integrity: sha512-F7XKmhxXEH/y3aWWf0N2w69wNSN+6PcJ1seqR1WolClmXpPhj+xwzs9j5CpsMFzeHR1D7irl3JcWMToPRwX6Hg==}
+  motion-dom@12.15.0:
+    resolution: {integrity: sha512-D2ldJgor+2vdcrDtKJw48k3OddXiZN1dDLLWrS8kiHzQdYVruh0IoTwbJBslrnTXIPgFED7PBN2Zbwl7rNqnhA==}
 
-  motion-utils@12.9.4:
-    resolution: {integrity: sha512-BW3I65zeM76CMsfh3kHid9ansEJk9Qvl+K5cu4DVHKGsI52n76OJ4z2CUJUV+Mn3uEP9k1JJA3tClG0ggSrRcg==}
+  motion-utils@12.12.1:
+    resolution: {integrity: sha512-f9qiqUHm7hWSLlNW8gS9pisnsN7CRFRD58vNjptKdsqFLpkVnX00TNeD6Q0d27V9KzT7ySFyK1TZ/DShfVOv6w==}
 
-  motion@12.10.0:
-    resolution: {integrity: sha512-GeIt/h4iVA5EW2UcCnBeuWeZX1pHjB7HEw0jn5sooq2VhnxkWCIbK5adYISVxhxpYcCz3HS1N8TDprz8PlY0kw==}
+  motion@12.15.0:
+    resolution: {integrity: sha512-HLouXyIb1uQFiZgJTYGrtEzbatPc6vK+HP+Qt6afLQjaudiGiLLVsoy71CwzD/Stlh06FUd5OpyiXqn6XvqjqQ==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0 || ^19.0.0
@@ -1717,15 +1720,15 @@ packages:
       '@types/react':
         optional: true
 
-  vike-react@0.6.1:
-    resolution: {integrity: sha512-ruUsOoz6TcdeIP5ORmb4Y1PKBNvqRDtCGrry6rY9Dj9ZYFJe+f/xnaKD81itua5nVnKfTtLQ2J4szIfYwJ9KrA==}
+  vike-react@0.6.3:
+    resolution: {integrity: sha512-qQSSwE3bgi1PLywug0hs7U0tql6ye5lLW6UfibFAc1VRzj1hf3NjK7gbE7uOBft3SLw4uXYvIE0B7+kX3riH9Q==}
     peerDependencies:
       react: '>=19'
       react-dom: '>=19'
       vike: '>=0.4.182'
 
-  vike@0.4.229:
-    resolution: {integrity: sha512-FLiNUDwj42yRpb/iNKwjoScskyEozCjtz9kne5qvgp9fkxYSEXU/sKb+t5+XUljb4orjFgBBVCNyISqdRnAKkA==}
+  vike@0.4.230:
+    resolution: {integrity: sha512-i/zOb1Ig/79fzafDU/4sz8NwxNN7/tYl5/gTgomN3RAybOvb+KCVvEtSZu0j0iIPVRxfU4jbz3yYWvsPnHnzUg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -2078,6 +2081,8 @@ snapshots:
 
   '@polka/url@1.0.0-next.28': {}
 
+  '@rolldown/pluginutils@1.0.0-beta.9': {}
+
   '@rollup/rollup-android-arm-eabi@4.35.0':
     optional: true
 
@@ -2284,8 +2289,9 @@ snapshots:
       '@typescript-eslint/types': 8.29.1
       eslint-visitor-keys: 4.2.0
 
-  '@vitejs/plugin-react-swc@3.9.0(vite@6.2.7)':
+  '@vitejs/plugin-react-swc@3.10.0(vite@6.2.7)':
     dependencies:
+      '@rolldown/pluginutils': 1.0.0-beta.9
       '@swc/core': 1.11.24
       vite: 6.2.7
     transitivePeerDependencies:
@@ -2753,10 +2759,10 @@ snapshots:
     dependencies:
       is-callable: 1.2.7
 
-  framer-motion@12.10.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  framer-motion@12.15.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
-      motion-dom: 12.10.5
-      motion-utils: 12.9.4
+      motion-dom: 12.15.0
+      motion-utils: 12.12.1
       tslib: 2.8.1
     optionalDependencies:
       react: 19.1.0
@@ -3051,15 +3057,15 @@ snapshots:
     dependencies:
       brace-expansion: 2.0.1
 
-  motion-dom@12.10.5:
+  motion-dom@12.15.0:
     dependencies:
-      motion-utils: 12.9.4
+      motion-utils: 12.12.1
 
-  motion-utils@12.9.4: {}
+  motion-utils@12.12.1: {}
 
-  motion@12.10.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  motion@12.15.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
-      framer-motion: 12.10.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      framer-motion: 12.15.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       tslib: 2.8.1
     optionalDependencies:
       react: 19.1.0
@@ -3557,14 +3563,14 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.1.1
 
-  vike-react@0.6.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vike@0.4.229(react-streaming@0.4.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.2.7)):
+  vike-react@0.6.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(vike@0.4.230(react-streaming@0.4.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.2.7)):
     dependencies:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
       react-streaming: 0.4.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      vike: 0.4.229(react-streaming@0.4.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.2.7)
+      vike: 0.4.230(react-streaming@0.4.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.2.7)
 
-  vike@0.4.229(react-streaming@0.4.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.2.7):
+  vike@0.4.230(react-streaming@0.4.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(vite@6.2.7):
     dependencies:
       '@brillout/import': 0.2.6
       '@brillout/json-serializer': 0.5.15
