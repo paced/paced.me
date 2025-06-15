@@ -28,11 +28,11 @@
     "vite": "6.3.5"
   },
   "dependencies": {
-    "@fontsource/rubik": "5.2.5",
+    "@fontsource/rubik": "5.2.6",
     "@mantine/core": "7.17.8",
     "@mantine/hooks": "7.17.8",
-    "@vitejs/plugin-react-swc": "3.10.1",
-    "motion": "12.16.0",
+    "@vitejs/plugin-react-swc": "3.10.2",
+    "motion": "12.17.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-icons": "5.5.0",
