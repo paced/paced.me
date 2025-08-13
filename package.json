@@ -31,7 +31,7 @@
     "@fontsource/rubik": "5.2.6",
     "@mantine/core": "7.17.8",
     "@mantine/hooks": "7.17.8",
-    "@vitejs/plugin-react-swc": "3.11.0",
+    "@vitejs/plugin-react-swc": "4.0.0",
     "motion": "12.23.12",
     "react": "19.1.1",
     "react-dom": "19.1.1",
