@@ -1,48 +1,26 @@
 {
-  "extends": [
-    "config:recommended"
-  ],
+  "extends": ["config:recommended"],
   "timezone": "Australia/Melbourne",
-  "schedule": [
-    "after 9am on thursday",
-    "before 12pm on thursday"
-  ],
+  "schedule": ["after 9am on thursday", "before 12pm on thursday"],
   "packageRules": [
     {
-      "matchDatasources": [
-        "npm"
-      ],
+      "matchDatasources": ["npm"],
       "minimumReleaseAge": "3 days"
     },
     {
       "groupName": "chore: dev dependencies safe update",
-      "matchDepTypes": [
-        "devDependencies"
-      ],
-      "matchUpdateTypes": [
-        "patch",
-        "minor"
-      ]
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch", "minor"]
     },
     {
       "groupName": "task: dependencies safe update",
-      "matchDepTypes": [
-        "dependencies"
-      ],
-      "matchUpdateTypes": [
-        "patch",
-        "minor"
-      ]
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["patch", "minor"]
     },
     {
       "groupName": "task: peer dependencies safe update",
-      "matchDepTypes": [
-        "peerDependencies"
-      ],
-      "matchUpdateTypes": [
-        "patch",
-        "minor"
-      ]
+      "matchDepTypes": ["peerDependencies"],
+      "matchUpdateTypes": ["patch", "minor"]
     }
   ]
 }
