@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "engines": {
-    "node": "22",
+    "node": "24",
     "pnpm": "10"
   },
   "devDependencies": {
