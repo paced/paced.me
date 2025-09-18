@@ -5,7 +5,7 @@
   "lockFileMaintenance": {
     "enabled": true,
     "automerge": true,
-    "automergeType": "pr"
+    "automergeType": "branch"
   },
   "packageRules": [
     {
@@ -16,19 +16,22 @@
       "groupName": "chore: dev dependencies safe update",
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["patch", "minor"],
-      "automerge": true
+      "automerge": true,
+      "automergeType": "branch"
     },
     {
       "groupName": "task: dependencies safe update",
       "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["patch", "minor"],
-      "automerge": true
+      "automerge": true,
+      "automergeType": "branch"
     },
     {
       "groupName": "task: peer dependencies safe update",
       "matchDepTypes": ["peerDependencies"],
       "matchUpdateTypes": ["patch", "minor"],
-      "automerge": true
+      "automerge": true,
+      "automergeType": "branch"
     }
   ]
 }
