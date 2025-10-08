@@ -30,11 +30,11 @@
   "dependencies": {
     "@fontsource/rubik": "5.2.8",
     "@vitejs/plugin-react-swc": "4.1.0",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
     "react-icons": "5.5.0",
-    "vike": "0.4.240",
-    "vike-react": "0.6.6"
+    "vike": "0.4.241",
+    "vike-react": "0.6.7"
   },
   "browserslist": {
     "development": [
