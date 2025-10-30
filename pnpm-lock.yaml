@@ -12,8 +12,8 @@ importers:
         specifier: 5.2.8
         version: 5.2.8
       '@vitejs/plugin-react-swc':
-        specifier: 4.1.0
-        version: 4.1.0(vite@7.1.12)
+        specifier: 4.2.0
+        version: 4.2.0(vite@7.1.12)
       react:
         specifier: 19.2.0
         version: 19.2.0
@@ -24,11 +24,11 @@ importers:
         specifier: 5.5.0
         version: 5.5.0(react@19.2.0)
       vike:
-        specifier: 0.4.242
-        version: 0.4.242(react-streaming@0.4.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(vite@7.1.12)
+        specifier: 0.4.244
+        version: 0.4.244(react-streaming@0.4.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(vite@7.1.12)
       vike-react:
-        specifier: 0.6.9
-        version: 0.6.9(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(vike@0.4.242(react-streaming@0.4.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(vite@7.1.12))
+        specifier: 0.6.10
+        version: 0.6.10(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(vike@0.4.244(react-streaming@0.4.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(vite@7.1.12))
     devDependencies:
       '@eslint/js':
         specifier: 9.38.0
@@ -395,8 +395,8 @@ packages:
   '@polka/url@1.0.0-next.29':
     resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
 
-  '@rolldown/pluginutils@1.0.0-beta.35':
-    resolution: {integrity: sha512-slYrCpoxJUqzFDDNlvrOYRazQUNRvWPjXA17dAOISY3rDMxX6k8K4cj2H+hEYMHF81HO3uNd5rHVigAWRM5dSg==}
+  '@rolldown/pluginutils@1.0.0-beta.43':
+    resolution: {integrity: sha512-5Uxg7fQUCmfhax7FJke2+8B6cqgeUJUD9o2uXIKXhD+mG0mL6NObmVoi9wXEU1tY89mZKgAYA6fTbftx3q2ZPQ==}
 
   '@rollup/rollup-android-arm-eabi@4.52.5':
     resolution: {integrity: sha512-8c1vW4ocv3UOMp9K+gToY5zL2XiiVw3k7f1ksf4yO1FlDFQ1C2u72iACFnSOceJFsWskc2WZNqeRhFRPzv+wtQ==}
@@ -667,8 +667,8 @@ packages:
     resolution: {integrity: sha512-tUFMXI4gxzzMXt4xpGJEsBsTox0XbNQ1y94EwlD/CuZwFcQP79xfQqMhau9HsRc/J0cAPA/HZt1dZPtGn9V/7w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@vitejs/plugin-react-swc@4.1.0':
-    resolution: {integrity: sha512-Ff690TUck0Anlh7wdIcnsVMhofeEVgm44Y4OYdeeEEPSKyZHzDI9gfVBvySEhDfXtBp8tLCbfsVKPWEMEjq8/g==}
+  '@vitejs/plugin-react-swc@4.2.0':
+    resolution: {integrity: sha512-/tesahXD1qpkGC6FzMoFOJj0RyZdw9xLELOL+6jbElwmWfwOnIVy+IfpY+o9JfD9PKaR/Eyb6DNrvbXpuvA+8Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       vite: ^4 || ^5 || ^6 || ^7
@@ -1646,15 +1646,15 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vike-react@0.6.9:
-    resolution: {integrity: sha512-e5rJzRtH8ne4F7EFQ1cUvYlLxiW3gb9WLEycnpa0XYbRkPZaN9sufLAheDZs0Ql9MQiogHgnGJbk3fxGcsKmpQ==}
+  vike-react@0.6.10:
+    resolution: {integrity: sha512-LzV3ZuFovlzkaWiXO9PQeiW56szVo5rM4h8UJeb58dUpAVzcjxvDoM0Q+2vinJisVrml5Wp+DjN0qWQHUu5UQQ==}
     peerDependencies:
       react: '>=19'
       react-dom: '>=19'
       vike: '>=0.4.182'
 
-  vike@0.4.242:
-    resolution: {integrity: sha512-oDogaWBjX26BiI24JXdrFsxFZPzuu1xNDMiwq/wu+BsXd1yDQGbmYQgKfE5u4RHqLPj7OCt1F6Rdg8Yz9s1rdQ==}
+  vike@0.4.244:
+    resolution: {integrity: sha512-Cq9Xye5l7k/J6QF3/PI3KklAh5BKi6a956GpfVH5pIeznOWRu80DIUHHZFwKceDZscgLnb9ZKxQ5G0UeZk/yCA==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
@@ -2032,7 +2032,7 @@ snapshots:
 
   '@polka/url@1.0.0-next.29': {}
 
-  '@rolldown/pluginutils@1.0.0-beta.35': {}
+  '@rolldown/pluginutils@1.0.0-beta.43': {}
 
   '@rollup/rollup-android-arm-eabi@4.52.5':
     optional: true
@@ -2265,9 +2265,9 @@ snapshots:
       '@typescript-eslint/types': 8.46.2
       eslint-visitor-keys: 4.2.1
 
-  '@vitejs/plugin-react-swc@4.1.0(vite@7.1.12)':
+  '@vitejs/plugin-react-swc@4.2.0(vite@7.1.12)':
     dependencies:
-      '@rolldown/pluginutils': 1.0.0-beta.35
+      '@rolldown/pluginutils': 1.0.0-beta.43
       '@swc/core': 1.13.5
       vite: 7.1.12
     transitivePeerDependencies:
@@ -3491,14 +3491,14 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vike-react@0.6.9(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(vike@0.4.242(react-streaming@0.4.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(vite@7.1.12)):
+  vike-react@0.6.10(react-dom@19.2.0(react@19.2.0))(react@19.2.0)(vike@0.4.244(react-streaming@0.4.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(vite@7.1.12)):
     dependencies:
       react: 19.2.0
       react-dom: 19.2.0(react@19.2.0)
       react-streaming: 0.4.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
-      vike: 0.4.242(react-streaming@0.4.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(vite@7.1.12)
+      vike: 0.4.244(react-streaming@0.4.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(vite@7.1.12)
 
-  vike@0.4.242(react-streaming@0.4.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(vite@7.1.12):
+  vike@0.4.244(react-streaming@0.4.11(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(vite@7.1.12):
     dependencies:
       '@brillout/import': 0.2.6
       '@brillout/json-serializer': 0.5.21
