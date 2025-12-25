@@ -21,7 +21,7 @@ jobs:
           version: 10
       - run: pnpm install
       - run: NODE_ENV=production pnpm run build
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with:
           name: paced-me-build
           path: |
@@ -34,7 +34,7 @@ jobs:
     if: github.ref == 'refs/heads/main'
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/download-artifact@v6
+      - uses: actions/download-artifact@v7
         with:
           name: paced-me-build
           path: .
