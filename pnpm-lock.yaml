@@ -27,8 +27,8 @@ importers:
         specifier: 0.4.252
         version: 0.4.252(react-streaming@0.4.15(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(vite@7.3.1)
       vike-react:
-        specifier: 0.6.18
-        version: 0.6.18(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vike@0.4.252(react-streaming@0.4.15(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(vite@7.3.1))
+        specifier: 0.6.19
+        version: 0.6.19(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vike@0.4.252(react-streaming@0.4.15(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(vite@7.3.1))
     devDependencies:
       '@eslint/js':
         specifier: 9.39.2
@@ -1623,8 +1623,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vike-react@0.6.18:
-    resolution: {integrity: sha512-kMoRGhdP7nSE59iWMQ3SkC9O4ISdHhnxJlwwH03VUFuUpZp2OgLUCPmlgBeIj7TU0z+P2KHhschmojvcZanL4w==}
+  vike-react@0.6.19:
+    resolution: {integrity: sha512-Evsw/Mws37Bpj+RMzYi/cuy876hyWqP4jWM3/CLKMy8mO7OLIVmlz4vDNA+c1QnO/XH3qCmvKCFAKRgcSqLacg==}
     peerDependencies:
       react: '>=19'
       react-dom: '>=19'
@@ -3425,7 +3425,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vike-react@0.6.18(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vike@0.4.252(react-streaming@0.4.15(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(vite@7.3.1)):
+  vike-react@0.6.19(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vike@0.4.252(react-streaming@0.4.15(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(vite@7.3.1)):
     dependencies:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
