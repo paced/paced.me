@@ -1,4 +1,4 @@
-import { FaKeybase } from "react-icons/fa";
+// import { FaKeybase } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
             <span className="highlight">interactivity</span>, and <span className="highlight">innovation</span>.
           </p>
         </div>
-        <div className="index-socials">
+        {/* <div className="index-socials">
           <b>
             <FaKeybase />
           </b>{" "}
@@ -35,7 +35,7 @@ export default function Home() {
           <a href="https://keybase.io/paced" target="__blank" rel="noreferrer noopener">
             AD13 F72A 4454 A8AE
           </a>
-        </div>
+        </div> */}
       </div>
     </>
   );
