@@ -12,8 +12,8 @@ importers:
         specifier: 5.2.8
         version: 5.2.8
       '@vitejs/plugin-react-swc':
-        specifier: 4.2.2
-        version: 4.2.2(vite@7.3.1)
+        specifier: 4.2.3
+        version: 4.2.3(vite@7.3.1)
       react:
         specifier: 19.2.4
         version: 19.2.4
@@ -24,11 +24,11 @@ importers:
         specifier: 5.5.0
         version: 5.5.0(react@19.2.4)
       vike:
-        specifier: 0.4.252
-        version: 0.4.252(react-streaming@0.4.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(vite@7.3.1)
+        specifier: 0.4.253
+        version: 0.4.253(react-streaming@0.4.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(vite@7.3.1)
       vike-react:
-        specifier: 0.6.19
-        version: 0.6.19(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vike@0.4.252(react-streaming@0.4.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(vite@7.3.1))
+        specifier: 0.6.20
+        version: 0.6.20(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vike@0.4.253(react-streaming@0.4.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(vite@7.3.1))
     devDependencies:
       '@eslint/js':
         specifier: 9.39.2
@@ -383,8 +383,8 @@ packages:
   '@polka/url@1.0.0-next.29':
     resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
 
-  '@rolldown/pluginutils@1.0.0-beta.47':
-    resolution: {integrity: sha512-8QagwMH3kNCuzD8EWL8R2YPW5e4OrHNSAHRFDdmFqEwEaD/KcNKjVoumo+gP2vW5eKB2UPbM6vTYiGZX0ixLnw==}
+  '@rolldown/pluginutils@1.0.0-rc.2':
+    resolution: {integrity: sha512-izyXV/v+cHiRfozX62W9htOAvwMo4/bXKDrQ+vom1L1qRuexPock/7VZDAhnpHCLNejd3NJ6hiab+tO0D44Rgw==}
 
   '@rollup/rollup-android-arm-eabi@4.57.1':
     resolution: {integrity: sha512-A6ehUVSiSaaliTxai040ZpZ2zTevHYbvu/lDoeAteHI8QnaosIzm4qwtezfRg1jOYaUmnzLX1AOD6Z+UJjtifg==}
@@ -690,8 +690,8 @@ packages:
     resolution: {integrity: sha512-VFlhGSl4opC0bprJiItPQ1RfUhGDIBokcPwaFH4yiBCaNPeld/9VeXbiPO1cLyorQi1G1vL+ecBk1x8o1axORA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@vitejs/plugin-react-swc@4.2.2':
-    resolution: {integrity: sha512-x+rE6tsxq/gxrEJN3Nv3dIV60lFflPj94c90b+NNo6n1QV1QQUTLoL0MpaOVasUZ0zqVBn7ead1B5ecx1JAGfA==}
+  '@vitejs/plugin-react-swc@4.2.3':
+    resolution: {integrity: sha512-QIluDil2prhY1gdA3GGwxZzTAmLdi8cQ2CcuMW4PB/Wu4e/1pzqrwhYWVd09LInCRlDUidQjd0B70QWbjWtLxA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       vite: ^4 || ^5 || ^6 || ^7
@@ -1623,15 +1623,15 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vike-react@0.6.19:
-    resolution: {integrity: sha512-Evsw/Mws37Bpj+RMzYi/cuy876hyWqP4jWM3/CLKMy8mO7OLIVmlz4vDNA+c1QnO/XH3qCmvKCFAKRgcSqLacg==}
+  vike-react@0.6.20:
+    resolution: {integrity: sha512-8gRMbP0DtwteVfmVju3e7UHYY7qZmAObXncjfM6zirtMdqR1MhqVd7eErh6j0CQMWMHNpMlJOaoyZyo77HLjeA==}
     peerDependencies:
       react: '>=19'
       react-dom: '>=19'
       vike: '>=0.4.250'
 
-  vike@0.4.252:
-    resolution: {integrity: sha512-hH3q92yYupWth4fN6TYAK62JLmZELrWXUpna0+n20iEVFT+x917ah7q2zxR+oLhVq8eeDNPHn47OOMUCjUS9nw==}
+  vike@0.4.253:
+    resolution: {integrity: sha512-glS8FidhqnK6I/wLs48BYtqsAMXs8QtOB0uxeZ0G93G2a0ZkymuZ5rjbcZHUCBLoUYS/8i0h4d4NhK2mAsUhTA==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
@@ -1997,7 +1997,7 @@ snapshots:
 
   '@polka/url@1.0.0-next.29': {}
 
-  '@rolldown/pluginutils@1.0.0-beta.47': {}
+  '@rolldown/pluginutils@1.0.0-rc.2': {}
 
   '@rollup/rollup-android-arm-eabi@4.57.1':
     optional: true
@@ -2239,9 +2239,9 @@ snapshots:
       '@typescript-eslint/types': 8.54.0
       eslint-visitor-keys: 4.2.1
 
-  '@vitejs/plugin-react-swc@4.2.2(vite@7.3.1)':
+  '@vitejs/plugin-react-swc@4.2.3(vite@7.3.1)':
     dependencies:
-      '@rolldown/pluginutils': 1.0.0-beta.47
+      '@rolldown/pluginutils': 1.0.0-rc.2
       '@swc/core': 1.15.11
       vite: 7.3.1
     transitivePeerDependencies:
@@ -3425,14 +3425,14 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vike-react@0.6.19(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vike@0.4.252(react-streaming@0.4.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(vite@7.3.1)):
+  vike-react@0.6.20(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(vike@0.4.253(react-streaming@0.4.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(vite@7.3.1)):
     dependencies:
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
       react-streaming: 0.4.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
-      vike: 0.4.252(react-streaming@0.4.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(vite@7.3.1)
+      vike: 0.4.253(react-streaming@0.4.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(vite@7.3.1)
 
-  vike@0.4.252(react-streaming@0.4.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(vite@7.3.1):
+  vike@0.4.253(react-streaming@0.4.15(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(vite@7.3.1):
     dependencies:
       '@babel/core': 7.29.0
       '@babel/types': 7.29.0
