@@ -46,6 +46,15 @@ body {
   background-color: var(--color-background-1);
 }
 
+.theme-transitioning *,
+.theme-transitioning *::before,
+.theme-transitioning *::after {
+  transition:
+    background-color 300ms ease,
+    border-color 300ms ease,
+    color 300ms ease !important;
+}
+
 .highlight {
   color: var(--color-accent-red) !important;
 }

@@ -18,13 +18,18 @@ function getStoredTheme(): Theme {
 
 function applyTheme(theme: Theme) {
   try {
+    const root = document.documentElement;
+
+    root.classList.add("theme-transitioning");
+    root.addEventListener("transitionend", () => root.classList.remove("theme-transitioning"), { once: true });
+
     if (theme === "system") {
       localStorage.removeItem("theme");
       const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-      document.documentElement.dataset.theme = prefersDark ? "dark" : "light";
+      root.dataset.theme = prefersDark ? "dark" : "light";
     } else {
       localStorage.setItem("theme", theme);
-      document.documentElement.dataset.theme = theme;
+      root.dataset.theme = theme;
     }
   } catch {
     // Ignore.
