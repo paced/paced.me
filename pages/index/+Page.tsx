@@ -1,5 +1,3 @@
-import { FaKeybase } from "react-icons/fa";
-
 export default function Home() {
   return (
     <>
@@ -26,15 +24,6 @@ export default function Home() {
             I am primarily passionate about <span className="highlight"> usability </span>,{" "}
             <span className="highlight">interactivity</span>, and <span className="highlight">innovation</span>.
           </p>
-        </div>
-        <div className="index-socials">
-          <b>
-            <FaKeybase />
-          </b>{" "}
-          Keybase:{" "}
-          <a href="https://keybase.io/paced" target="__blank" rel="noreferrer noopener">
-            AD13 F72A 4454 A8AE
-          </a>
         </div>
       </div>
     </>
