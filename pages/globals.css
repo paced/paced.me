@@ -103,6 +103,10 @@ a.no-decoration:after {
   margin: 5vh 10vw;
 }
 
+main {
+  margin-bottom: 5vh;
+}
+
 footer {
   margin-top: 2em;
   opacity: 50%;
@@ -206,4 +210,63 @@ footer {
 
 li {
   margin-bottom: 0.5em;
+}
+
+.theme-toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 6px;
+  background-color: var(--color-background-2);
+  border: 1.5px solid var(--color-background-4);
+  border-radius: 14px;
+  width: fit-content;
+}
+
+.theme-toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 10px;
+  color: var(--color-foreground-3);
+  cursor: pointer;
+  font-size: 1rem;
+  transition:
+    background-color 150ms ease,
+    color 150ms ease;
+}
+
+.theme-toggle-btn:hover {
+  background-color: var(--color-background-3);
+  color: var(--color-foreground-1);
+}
+
+.theme-toggle-btn.active {
+  background-color: var(--color-background-3);
+  color: var(--color-foreground-1);
+}
+
+.theme-toggle-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.theme-toggle-attribution {
+  display: block;
+  font-size: 0.6rem;
+  text-align: center;
+  color: var(--color-foreground-4);
+  opacity: 0.7;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+
+.theme-toggle-attribution:after {
+  display: none;
 }

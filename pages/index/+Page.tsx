@@ -1,7 +1,10 @@
+import ThemeToggle from "../../components/ThemeToggle";
+
 export default function Home() {
   return (
     <>
       <title>Paced Engineering</title>
+
       <div className="content">
         <div className="brief">
           <h1 className="title big-pad">Hey.</h1>
@@ -26,6 +29,8 @@ export default function Home() {
           </p>
         </div>
       </div>
+
+      <ThemeToggle />
     </>
   );
 }
