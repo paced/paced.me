@@ -24,11 +24,11 @@ importers:
         specifier: 5.6.0
         version: 5.6.0(react@19.2.7)
       vike:
-        specifier: 0.4.259
-        version: 0.4.259(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.17)(vite@8.0.16(esbuild@0.28.1))
+        specifier: 0.4.260
+        version: 0.4.260(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.17)(vite@8.0.16(esbuild@0.28.1))
       vike-react:
-        specifier: 0.6.24
-        version: 0.6.24(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(vike@0.4.259(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.17)(vite@8.0.16(esbuild@0.28.1)))
+        specifier: 0.6.25
+        version: 0.6.25(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(vike@0.4.260(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.17)(vite@8.0.16(esbuild@0.28.1)))
     devDependencies:
       '@eslint/js':
         specifier: 10.0.1
@@ -145,8 +145,8 @@ packages:
   '@brillout/picocolors@1.0.31':
     resolution: {integrity: sha512-xFCPBefU/AevF8XkwXSd/jIHA0fWw+mZ/gd5x2WOc5ysG7keHnU8m0gwY2Bvq5lvTyjwT4tiyow6fnMoYdmSqw==}
 
-  '@brillout/vite-plugin-server-entry@0.7.18':
-    resolution: {integrity: sha512-j3neG+vaIZ2AbP2/vGgaIyJwrFIxlK3xd3Ey2EGBswCvAGeI4QSSfXGbb7R3b3H8223PgTTsWOZuZH0Y8Ope2w==}
+  '@brillout/vite-plugin-server-entry@0.7.19':
+    resolution: {integrity: sha512-XIT5xAB4x3XPTLF+WfXI92zFAcIcYZqkFkYY1tpg7wrsTWMzllRF2Fbnzy8S/Dilsw9y1qJOHUVrmLtNp2/6Yw==}
 
   '@emnapi/core@1.10.0':
     resolution: {integrity: sha512-yq6OkJ4p82CAfPl0u9mQebQHKPJkY7WrIuk205cTYnYe+k2Z8YBh11FrbRG/H6ihirqcacOgl2BIO8oyMQLeXw==}
@@ -750,9 +750,6 @@ packages:
 
   '@universal-middleware/express@0.4.30':
     resolution: {integrity: sha512-vkaqurRbPFMYSACaG+iWpDbFlvbV/GTQ0wHx8Aqg9I7f5HxFHoos4F7E/oUIa352FXcJPflQM0CJXgkHTW+QeQ==}
-
-  '@universal-middleware/node@0.1.0':
-    resolution: {integrity: sha512-I03mkOhw0Ka28MtALkpoGJYE8YYSJxmq/iambaqKGXxlFXgLI/VXlw0LmX9iansUzbolNq4hWFMfHyNp2xb4jA==}
 
   '@universal-middleware/node@0.2.1':
     resolution: {integrity: sha512-AKeljt63mp66sQP9DHn4aNZZgWW+mD82ysSVlISe/v1opYyIDfqYvuo+BJ3JJvjVzQncxkp/Z4al9q5wEA5FqA==}
@@ -1767,15 +1764,15 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vike-react@0.6.24:
-    resolution: {integrity: sha512-IoZ1Owlhc1muhHDdqOvqjchT8gcMmWvYWPdatU/aSY7qr/PPhp63+Bj0SPZgl5F3k3YWEZVmbGwsiPP8r3wy9A==}
+  vike-react@0.6.25:
+    resolution: {integrity: sha512-Jrl015u5WnLUhy8uxRjcuPGGAMW5Kb2FoRRKB9XnMEInS2+GW4qOHfzS5SYmlr6xzKjNn1z+eimfHN3N51E77g==}
     peerDependencies:
       react: '>=19'
       react-dom: '>=19'
       vike: '>=0.4.250'
 
-  vike@0.4.259:
-    resolution: {integrity: sha512-5S+rgfLYfozCqXTlyZzr6P4FXOIoPcsSbqYO32keBK2Jun4AKR5BI/sQiP3w09Zq/WZkywEu0ofHFAAxtaIdSg==}
+  vike@0.4.260:
+    resolution: {integrity: sha512-9HMYNO3ZZw21W/FpP6eqgRd+yz+fgRW16KGhrG2BlYjW23gAZTGx4vtx8sDQXRKKnspSsQsUSA2POsJqfxEZ2g==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
@@ -1984,7 +1981,7 @@ snapshots:
 
   '@brillout/picocolors@1.0.31': {}
 
-  '@brillout/vite-plugin-server-entry@0.7.18':
+  '@brillout/vite-plugin-server-entry@0.7.19':
     dependencies:
       '@brillout/import': 0.2.6
       '@brillout/picocolors': 1.0.31
@@ -2449,20 +2446,6 @@ snapshots:
     dependencies:
       '@universal-middleware/core': 0.4.18(srvx@0.11.17)
       '@universal-middleware/node': 0.2.1(srvx@0.11.17)
-    transitivePeerDependencies:
-      - '@cloudflare/workers-types'
-      - '@hattip/core'
-      - '@types/express'
-      - '@webroute/route'
-      - elysia
-      - fastify
-      - h3
-      - hono
-      - srvx
-
-  '@universal-middleware/node@0.1.0(srvx@0.11.17)':
-    dependencies:
-      '@universal-middleware/core': 0.4.18(srvx@0.11.17)
     transitivePeerDependencies:
       - '@cloudflare/workers-types'
       - '@hattip/core'
@@ -3726,25 +3709,25 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vike-react@0.6.24(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(vike@0.4.259(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.17)(vite@8.0.16(esbuild@0.28.1))):
+  vike-react@0.6.25(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(vike@0.4.260(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.17)(vite@8.0.16(esbuild@0.28.1))):
     dependencies:
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
       react-streaming: 0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
-      vike: 0.4.259(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.17)(vite@8.0.16(esbuild@0.28.1))
+      vike: 0.4.260(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.17)(vite@8.0.16(esbuild@0.28.1))
 
-  vike@0.4.259(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.17)(vite@8.0.16(esbuild@0.28.1)):
+  vike@0.4.260(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.17)(vite@8.0.16(esbuild@0.28.1)):
     dependencies:
       '@babel/core': 7.29.7
       '@babel/types': 7.29.7
       '@brillout/import': 0.2.6
       '@brillout/json-serializer': 0.5.25
       '@brillout/picocolors': 1.0.31
-      '@brillout/vite-plugin-server-entry': 0.7.18
+      '@brillout/vite-plugin-server-entry': 0.7.19
       '@universal-deploy/store': 0.2.1(srvx@0.11.17)
       '@universal-deploy/vite': 0.1.10(srvx@0.11.17)(vite@8.0.16(esbuild@0.28.1))
       '@universal-middleware/core': 0.4.18(srvx@0.11.17)
-      '@universal-middleware/node': 0.1.0(srvx@0.11.17)
+      '@universal-middleware/node': 0.2.1(srvx@0.11.17)
       cac: 6.7.14
       convert-route: 1.1.1
       es-module-lexer: 1.7.0
