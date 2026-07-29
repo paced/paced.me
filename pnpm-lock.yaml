@@ -12,23 +12,23 @@ importers:
         specifier: 5.3.0
         version: 5.3.0
       '@vitejs/plugin-react-swc':
-        specifier: 4.3.1
-        version: 4.3.1(vite@8.1.5(esbuild@0.28.1))
+        specifier: 4.3.2
+        version: 4.3.2(vite@8.1.5(esbuild@0.28.1))
       react:
-        specifier: 19.2.7
-        version: 19.2.7
+        specifier: 19.2.8
+        version: 19.2.8
       react-dom:
-        specifier: 19.2.7
-        version: 19.2.7(react@19.2.7)
+        specifier: 19.2.8
+        version: 19.2.8(react@19.2.8)
       react-icons:
         specifier: 5.7.0
-        version: 5.7.0(react@19.2.7)
+        version: 5.7.0(react@19.2.8)
       vike:
         specifier: 0.4.260
-        version: 0.4.260(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.22)(vite@8.1.5(esbuild@0.28.1))
+        version: 0.4.260(react-streaming@0.4.20(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(srvx@0.11.22)(vite@8.1.5(esbuild@0.28.1))
       vike-react:
         specifier: 0.6.25
-        version: 0.6.25(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(vike@0.4.260(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.22)(vite@8.1.5(esbuild@0.28.1)))
+        version: 0.6.25(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(vike@0.4.260(react-streaming@0.4.20(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(srvx@0.11.22)(vite@8.1.5(esbuild@0.28.1)))
     devDependencies:
       '@eslint/js':
         specifier: 10.0.1
@@ -754,8 +754,8 @@ packages:
   '@universal-middleware/node@0.2.2':
     resolution: {integrity: sha512-QLovBNvsmKCUMd29IOCJchft7JdAPi5/ConbXxg2Z1a6Yl0lG7M/heCYvjesvUcrg4gPCUWowBZAjwPp4Z6uqQ==}
 
-  '@vitejs/plugin-react-swc@4.3.1':
-    resolution: {integrity: sha512-PaeokKjAGraNN+s5SIApgsktnJprIyt3zgEIu7awnEdfn29QiB2crTcCzyi2XGpX9rUnTc0cKU07Wm0N0g7H2w==}
+  '@vitejs/plugin-react-swc@4.3.2':
+    resolution: {integrity: sha512-MlSlmSAYbYwPjGa+CjOAqwij09iPYAQDHwx8osVkwoDamCxXlg+avpkC65Ysv+L/uqUWvRTsnJCKPjVhZih/sA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       vite: ^4 || ^5 || ^6 || ^7 || ^8
@@ -1536,10 +1536,10 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  react-dom@19.2.7:
-    resolution: {integrity: sha512-t0BRVXvbiE/o20Hfw669rLbMCDWtYZLvmJigy2f0MxsXF+71pxhR3xOkspmsO8h3ZlNzyibAmtCa3l4lYKk6gQ==}
+  react-dom@19.2.8:
+    resolution: {integrity: sha512-rVprimfGBG3DR+Tq0IQG2DT5PxKth1WIGDmj5yPmlzr4YBe7uyE+Du4oVqTDXZSHGGGXRtTJEGSSePyQCMBglQ==}
     peerDependencies:
-      react: ^19.2.7
+      react: ^19.2.8
 
   react-icons@5.7.0:
     resolution: {integrity: sha512-LBLy340Rzqy6+/yVhZKT3B/QpP1BZaesGqasf09HPOBzRarcDIFH0WwXlXQfE7q7ipxK4MSiC5DIBWURCny6fw==}
@@ -1555,8 +1555,8 @@ packages:
       react: '>=19'
       react-dom: '>=19'
 
-  react@19.2.7:
-    resolution: {integrity: sha512-HNe9WslTbXmFK8o8cmwgAeJFSBvt1bPdHCVKtaaV+WlAN36mpT4hcRpwbf3fY56ar2oIXzsBpOAiIRHAdY0OlQ==}
+  react@19.2.8:
+    resolution: {integrity: sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==}
     engines: {node: '>=0.10.0'}
 
   reflect.getprototypeof@1.0.10:
@@ -2471,7 +2471,7 @@ snapshots:
       - hono
       - srvx
 
-  '@vitejs/plugin-react-swc@4.3.1(vite@8.1.5(esbuild@0.28.1))':
+  '@vitejs/plugin-react-swc@4.3.2(vite@8.1.5(esbuild@0.28.1))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
       '@swc/core': 1.15.46
@@ -3393,27 +3393,27 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  react-dom@19.2.7(react@19.2.7):
+  react-dom@19.2.8(react@19.2.8):
     dependencies:
-      react: 19.2.7
+      react: 19.2.8
       scheduler: 0.27.0
 
-  react-icons@5.7.0(react@19.2.7):
+  react-icons@5.7.0(react@19.2.8):
     dependencies:
-      react: 19.2.7
+      react: 19.2.8
 
   react-is@16.13.1: {}
 
-  react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7):
+  react-streaming@0.4.20(react-dom@19.2.8(react@19.2.8))(react@19.2.8):
     dependencies:
       '@brillout/import': 0.2.6
       '@brillout/json-serializer': 0.5.25
       '@brillout/picocolors': 1.0.31
       isbot-fast: 1.2.0
-      react: 19.2.7
-      react-dom: 19.2.7(react@19.2.7)
+      react: 19.2.8
+      react-dom: 19.2.8(react@19.2.8)
 
-  react@19.2.7: {}
+  react@19.2.8: {}
 
   reflect.getprototypeof@1.0.10:
     dependencies:
@@ -3710,14 +3710,14 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vike-react@0.6.25(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(vike@0.4.260(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.22)(vite@8.1.5(esbuild@0.28.1))):
+  vike-react@0.6.25(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(vike@0.4.260(react-streaming@0.4.20(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(srvx@0.11.22)(vite@8.1.5(esbuild@0.28.1))):
     dependencies:
-      react: 19.2.7
-      react-dom: 19.2.7(react@19.2.7)
-      react-streaming: 0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
-      vike: 0.4.260(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.22)(vite@8.1.5(esbuild@0.28.1))
+      react: 19.2.8
+      react-dom: 19.2.8(react@19.2.8)
+      react-streaming: 0.4.20(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      vike: 0.4.260(react-streaming@0.4.20(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(srvx@0.11.22)(vite@8.1.5(esbuild@0.28.1))
 
-  vike@0.4.260(react-streaming@0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(srvx@0.11.22)(vite@8.1.5(esbuild@0.28.1)):
+  vike@0.4.260(react-streaming@0.4.20(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(srvx@0.11.22)(vite@8.1.5(esbuild@0.28.1)):
     dependencies:
       '@babel/core': 7.29.7
       '@babel/types': 7.29.7
@@ -3742,7 +3742,7 @@ snapshots:
       tinyglobby: 0.2.17
       vite-plugin-wrapper: 0.1.1(vite@8.1.5(esbuild@0.28.1))
     optionalDependencies:
-      react-streaming: 0.4.20(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+      react-streaming: 0.4.20(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       vite: 8.1.5(esbuild@0.28.1)
     transitivePeerDependencies:
       - '@cloudflare/workers-types'
