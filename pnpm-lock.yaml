@@ -12,8 +12,8 @@ importers:
         specifier: 5.3.0
         version: 5.3.0
       '@vitejs/plugin-react-swc':
-        specifier: 4.3.2
-        version: 4.3.2(vite@8.2.0(esbuild@0.28.1))
+        specifier: 4.3.3
+        version: 4.3.3(vite@8.2.0(esbuild@0.28.1))
       react:
         specifier: 19.2.8
         version: 19.2.8
@@ -731,8 +731,8 @@ packages:
   '@universal-middleware/node@0.2.2':
     resolution: {integrity: sha512-QLovBNvsmKCUMd29IOCJchft7JdAPi5/ConbXxg2Z1a6Yl0lG7M/heCYvjesvUcrg4gPCUWowBZAjwPp4Z6uqQ==}
 
-  '@vitejs/plugin-react-swc@4.3.2':
-    resolution: {integrity: sha512-MlSlmSAYbYwPjGa+CjOAqwij09iPYAQDHwx8osVkwoDamCxXlg+avpkC65Ysv+L/uqUWvRTsnJCKPjVhZih/sA==}
+  '@vitejs/plugin-react-swc@4.3.3':
+    resolution: {integrity: sha512-bti8ZAcvz4Lh6/e4Uk2k3aa1TiUXbbMsahuqOHvd3MveFTkKDZOA6wQVkpj7J/+tepX/wGfe+lsGh/t24HTXMQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       vite: ^4 || ^5 || ^6 || ^7 || ^8
@@ -2410,7 +2410,7 @@ snapshots:
       - hono
       - srvx
 
-  '@vitejs/plugin-react-swc@4.3.2(vite@8.2.0(esbuild@0.28.1))':
+  '@vitejs/plugin-react-swc@4.3.3(vite@8.2.0(esbuild@0.28.1))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
       '@swc/core': 1.15.46
