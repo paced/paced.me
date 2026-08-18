@@ -18,7 +18,7 @@ jobs:
           node-version: 24
       - uses: pnpm/action-setup@v6
         with:
-          version: 10
+          version: 11
       - run: pnpm install
       - run: NODE_ENV=production pnpm run build
       - uses: actions/upload-artifact@v7
@@ -43,7 +43,7 @@ jobs:
           node-version: 24
       - uses: pnpm/action-setup@v6
         with:
-          version: 10
+          version: 11
       - run: pnpm install
       - uses: cloudflare/pages-action@v1
         with:
