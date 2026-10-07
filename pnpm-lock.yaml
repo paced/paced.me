@@ -24,11 +24,11 @@ importers:
         specifier: 5.7.0
         version: 5.7.0(react@19.3.0)
       vike:
-        specifier: 0.4.266
-        version: 0.4.266(react-streaming@0.4.20(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(srvx@0.12.8)(vite@8.3.0(esbuild@0.28.2))
+        specifier: 0.4.267
+        version: 0.4.267(react-streaming@0.4.20(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(srvx@0.12.8)(vite@8.3.0(esbuild@0.28.2))
       vike-react:
-        specifier: 0.6.27
-        version: 0.6.27(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(vike@0.4.266(react-streaming@0.4.20(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(srvx@0.12.8)(vite@8.3.0(esbuild@0.28.2)))
+        specifier: 0.6.29
+        version: 0.6.29(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(vike@0.4.267(react-streaming@0.4.20(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(srvx@0.12.8)(vite@8.3.0(esbuild@0.28.2)))
     devDependencies:
       '@eslint/js':
         specifier: 10.0.1
@@ -1774,15 +1774,15 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vike-react@0.6.27:
-    resolution: {integrity: sha512-rjJx/cnLXQS4KjxSkuVLgzYZw+2tpoHwF6xmLGLjhPBnelXNfaK6j8a3I786h4Ts6lfXGBLoGdYKioDIQcTBFw==}
+  vike-react@0.6.29:
+    resolution: {integrity: sha512-LNepTBuycGMxf3ZqCFws/vWlnxmcPrv/QSiGHWn+dWK8uSaYTAK+jSrLY6FnXyHy2e/fCTTFCWBhpr8l1ku9tA==}
     peerDependencies:
       react: '>=19'
       react-dom: '>=19'
       vike: '>=0.4.250'
 
-  vike@0.4.266:
-    resolution: {integrity: sha512-RV7KqAmuKDJqzO7JCdKYIke6XqBoBkZXq6EBe5M9o4VdU1/SS8e3BqjzpfIXQprBBYS2XvEA028OvYyK9ewcnA==}
+  vike@0.4.267:
+    resolution: {integrity: sha512-HH+Ba+4AJ9SKTkg7k+f/ivjWEweL33689SgOGOyVNViF0P0saUarcWHgvNhBqQ7yXdyxr8v8ENpXL8GA4AhETw==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
@@ -2816,6 +2816,7 @@ snapshots:
       '@esbuild/win32-arm64': 0.28.2
       '@esbuild/win32-ia32': 0.28.2
       '@esbuild/win32-x64': 0.28.2
+    optional: true
 
   escalade@3.2.0: {}
 
@@ -3727,14 +3728,14 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vike-react@0.6.27(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(vike@0.4.266(react-streaming@0.4.20(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(srvx@0.12.8)(vite@8.3.0(esbuild@0.28.2))):
+  vike-react@0.6.29(react-dom@19.3.0(react@19.3.0))(react@19.3.0)(vike@0.4.267(react-streaming@0.4.20(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(srvx@0.12.8)(vite@8.3.0(esbuild@0.28.2))):
     dependencies:
       react: 19.3.0
       react-dom: 19.3.0(react@19.3.0)
       react-streaming: 0.4.20(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
-      vike: 0.4.266(react-streaming@0.4.20(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(srvx@0.12.8)(vite@8.3.0(esbuild@0.28.2))
+      vike: 0.4.267(react-streaming@0.4.20(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(srvx@0.12.8)(vite@8.3.0(esbuild@0.28.2))
 
-  vike@0.4.266(react-streaming@0.4.20(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(srvx@0.12.8)(vite@8.3.0(esbuild@0.28.2)):
+  vike@0.4.267(react-streaming@0.4.20(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(srvx@0.12.8)(vite@8.3.0(esbuild@0.28.2)):
     dependencies:
       '@babel/core': 7.29.7
       '@babel/types': 7.29.8
@@ -3749,10 +3750,10 @@ snapshots:
       cac: 6.7.14
       convert-route: 1.1.1
       es-module-lexer: 1.7.0
-      esbuild: 0.28.2
       json5: 2.2.3
       magic-string: 1.4.2
       picomatch: 4.0.7
+      rolldown: 1.2.11
       semver: 7.8.5
       sirv: 3.0.2
       source-map-support: 0.5.21
