@@ -10,7 +10,7 @@
     "preview": "vike preview"
   },
   "engines": {
-    "node": "24",
+    "node": "26",
     "pnpm": "10"
   },
   "devDependencies": {
